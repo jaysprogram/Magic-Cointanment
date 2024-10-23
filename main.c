@@ -131,11 +131,11 @@ int main(){
     // shuffled for better average cases
     shuffleList(motesVolume,motes);
     shuffleList(deviceVolume,devices);
-    printf("\n");
+    
     // sorted array
     quickSort(motesVolume, motes);
     quickSort(deviceVolume,devices);
-    printf("\n");
+    
 
     double res = calculateUncontainedVol(motesVolume,deviceVolume,motes,devices);
     printf("%lf\n", res);
